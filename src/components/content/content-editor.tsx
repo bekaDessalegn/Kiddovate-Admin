@@ -191,7 +191,8 @@ export function ContentEditor({
                   placeholder="Write your content here..."
                 />
                 <p className="mt-2 text-sm text-gray-500">
-                  Tip: Use Markdown like <code>**bold**</code>, <code># Heading</code>, <code>- list</code>.
+                  Paste the website Privacy or Terms text here (heading, then body, for each section).
+                  The app reads this document from Firestore. Markdown like <code>**bold**</code> also works.
                 </p>
               </div>
             </div>
